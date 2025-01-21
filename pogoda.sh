@@ -1,0 +1,1 @@
+exec 3<>/dev/tcp/wttr.in/80; printf 'GET /Tobolsk HTTP/1.1\r\nConnection: close\r\nHost: wttr.in\r\nUser-Agent: curl\r\n\r\n' >&3; while IFS='' read -r line; do printf -- '%s\n' "${line}"; done <&3; exec 3>&-

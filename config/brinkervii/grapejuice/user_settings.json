@@ -1,0 +1,118 @@
+{
+  "version": 4,
+  "hardware_profile": {
+    "graphics_id": "edea3f9250562bb70fec0c4471295bf71f1e372c40ab4e0a6cca310590e1b05b",
+    "gpu_vendor_id": 1,
+    "gpu_pci_id": "04:00.0",
+    "gpu_can_do_vulkan": true,
+    "provider_index": 0,
+    "provider_name": "AMD Radeon Graphics @ pci:0000:04:00.0",
+    "should_prime": false,
+    "use_mesa_gl_override": false,
+    "preferred_roblox_renderer_string": "Vulkan",
+    "is_multi_gpu": false,
+    "version": 2
+  },
+  "show_fast_flag_warning": true,
+  "release_channel": "master",
+  "disable_updates": false,
+  "try_profiling_hardware": true,
+  "default_wine_home": "",
+  "wineprefixes": [
+    {
+      "id": "9a470c11-2852-4af9-90e9-ff284d66854c",
+      "priority": 0,
+      "name_on_disk": "studio",
+      "display_name": "Studio",
+      "wine_home": "",
+      "dll_overrides": "dxdiagn=;winemenubuilder.exe=",
+      "disable_edge_update": true,
+      "prime_offload_sink": -1,
+      "use_mesa_gl_override": false,
+      "enable_winedebug": false,
+      "winedebug_string": "",
+      "roblox_release_channel": "live",
+      "roblox_renderer": "D3D11",
+      "roblox_set_target_fps": false,
+      "roblox_scheduler_target_fps": 144,
+      "env": {},
+      "sanitize_environment": false,
+      "env_passthrough": [
+        "HOME",
+        "DISPLAY",
+        "XAUTHORITY",
+        "WAYLAND_DISPLAY",
+        "LANG",
+        "TZ",
+        "XDG_RUNTIME_DIR",
+        "XDG_SESSION_TYPE",
+        "XDG_CONFIG_HOME",
+        "XDG_DATA_HOME",
+        "LD_LIBRARY_PATH",
+        "LD_PRELOAD",
+        "MANGOHUD"
+      ],
+      "hints": [
+        "studio"
+      ],
+      "fast_flags": {},
+      "third_party": {},
+      "dxvk_overrides": [
+        "d3d11",
+        "d3d9",
+        "dxgi",
+        "d3d10core"
+      ]
+    },
+    {
+      "id": "d4b15598-4cc9-4212-a52e-2575feb0f59a",
+      "priority": 0,
+      "name_on_disk": "player",
+      "display_name": "Player",
+      "wine_home": "",
+      "dll_overrides": "dxdiagn=;winemenubuilder.exe=",
+      "disable_edge_update": true,
+      "prime_offload_sink": -1,
+      "use_mesa_gl_override": false,
+      "enable_winedebug": false,
+      "winedebug_string": "",
+      "roblox_release_channel": "live",
+      "roblox_renderer": "Vulkan",
+      "roblox_set_target_fps": false,
+      "roblox_scheduler_target_fps": 144,
+      "env": {},
+      "sanitize_environment": false,
+      "env_passthrough": [
+        "HOME",
+        "DISPLAY",
+        "XAUTHORITY",
+        "WAYLAND_DISPLAY",
+        "LANG",
+        "TZ",
+        "XDG_RUNTIME_DIR",
+        "XDG_SESSION_TYPE",
+        "XDG_CONFIG_HOME",
+        "XDG_DATA_HOME",
+        "LD_LIBRARY_PATH",
+        "LD_PRELOAD",
+        "MANGOHUD"
+      ],
+      "hints": [
+        "player",
+        "app"
+      ],
+      "fast_flags": {},
+      "third_party": {
+        "dxvk": false
+      },
+      "dxvk_overrides": [
+        "d3d11",
+        "d3d9",
+        "dxgi",
+        "d3d10core"
+      ]
+    }
+  ],
+  "unsupported_settings": {},
+  "performed_first_time_setup": true
+}

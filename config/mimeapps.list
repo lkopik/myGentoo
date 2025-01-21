@@ -1,0 +1,20 @@
+[Default Applications]
+x-scheme-handler/http=firefox-esr.desktop
+x-scheme-handler/https=firefox-esr.desktop
+application/x-msdownload=steam.desktop
+x-scheme-handler/chrome=firefox-esr.desktop
+text/html=firefox-esr.desktop
+application/x-extension-htm=firefox-esr.desktop
+application/x-extension-html=firefox-esr.desktop
+application/x-extension-shtml=firefox-esr.desktop
+application/xhtml+xml=firefox-esr.desktop
+application/x-extension-xhtml=firefox-esr.desktop
+application/x-extension-xht=firefox-esr.desktop
+text/plain=nvim.desktop
+
+[Added Associations]
+x-scheme-handler/http=xfce4-web-browser.desktop;firefox-esr.desktop;
+x-scheme-handler/https=xfce4-web-browser.desktop;firefox-esr.desktop;
+application/x-msdownload=steam.desktop;
+text/plain=nvim.desktop;
+application/vnd.microsoft.portable-executable=ru.linux_gaming.PortProton.desktop;wine.desktop;
